@@ -1,0 +1,160 @@
+.textContent {
+    width: 100%;
+}
+
+.portfolio {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.portfolioContent {
+    width: 90%;
+    margin: auto;
+}
+
+.textContent img {
+    width: 100%;
+    height: 652px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.item {
+    width: calc(100% / 3 - 50px);
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.item:hover .info{
+    transform: translateY(-60px);
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 94.542%, 0 5.401%, 0 5.401%, .025% 4.805%, .111% 4.222%, .256% 3.657%, .456% 3.113%, .711% 2.594%, 1.017% 2.106%, 1.372% 1.652%, 1.773% 1.236%, 2.219% .863%, 2.707% .538%, 2.753% .514%, 2.753% .514%, 2.942% .416%, 3.135% .328%, 3.332% .25%, 3.532% .183%, 3.735% .126%, 3.941% .079%, 4.149% .043%, 4.358% .018%, 4.569% .004%, 4.781% 0, 94.38% 0, 94.38% 0, 94.793% .01%, 95.202% .051%, 95.605% .123%, 96.001% .223%, 96.389% .353%, 96.766% .511%, 97.132% .697%, 97.484% .91%, 97.822% 1.149%, 98.143% 1.415%, 98.143% 1.415%, 98.284% 1.549%, 98.42% 1.687%, 98.551% 1.83%, 98.678% 1.977%, 98.799% 2.129%, 98.915% 2.285%, 99.026% 2.445%, 99.131% 2.609%, 99.231% 2.777%, 99.325% 2.948%, 99.325% 2.948%, 99.455% 3.217%, 99.571% 3.492%, 99.674% 3.772%, 99.763% 4.056%, 99.838% 4.345%, 99.899% 4.637%, 99.946% 4.932%, 99.978% 5.229%, 99.996% 5.528%, 100% 5.828%, 100% 77.83%, 100% 77.83%, 99.552% 78.96%, 99.028% 79.989%, 98.426% 80.919%, 97.745% 81.748%, 96.982% 82.476%, 96.137% 83.102%, 95.207% 83.627%, 94.19% 84.05%, 93.085% 84.371%, 91.889% 84.59%, 91.889% 84.59%, 91.176% 84.715%, 90.486% 84.895%, 89.822% 85.13%, 89.186% 85.421%, 88.581% 85.769%, 88.007% 86.173%, 87.468% 86.634%, 86.964% 87.152%, 86.499% 87.729%, 86.074% 88.363%, 86.074% 88.363%, 85.849% 88.732%, 85.637% 89.108%, 85.438% 89.491%, 85.251% 89.88%, 85.078% 90.276%, 84.917% 90.677%, 84.77% 91.084%, 84.637% 91.495%, 84.517% 91.912%, 84.41% 92.333%, 84.41% 92.333%, 84.119% 93.466%, 83.748% 94.521%, 83.294% 95.496%, 82.756% 96.39%, 82.132% 97.203%, 81.419% 97.932%, 80.617% 98.578%, 79.723% 99.139%, 78.734% 99.613%, 77.65% 100%, 4.643% 100%, 4.643% 100%, 4.476% 99.998%, 4.309% 99.988%, 4.144% 99.971%, 3.979% 99.946%, 3.816% 99.913%, 3.655% 99.873%, 3.495% 99.825%, 3.337% 99.769%, 3.182% 99.707%, 3.03% 99.637%, 2.984% 99.613%, 2.984% 99.613%, 2.45% 99.291%, 1.96% 98.915%, 1.519% 98.49%, 1.127% 98.02%, .789% 97.511%, .507% 96.967%, .285% 96.393%, .124% 95.795%, .028% 95.176%, 0 94.542%);
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.item:hover .knowMore{
+    background-color: #f2d1b0;
+    color: #3c3334;
+}
+.item:hover img{
+    transform: scale(1.1);
+}
+
+.info{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 80%;
+    height: 65px;
+    transition: 0.5s;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.knowMore{
+    width: 50px;
+    height: 50px;
+    background-color: #3c3334;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    transition: 1s;
+    cursor: pointer;
+}
+.allItem {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.content h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.item h2{
+    margin-bottom: 40px;
+}
+
+.slickItem{
+
+}
+.slickContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.slickContainer .item{
+    width: 90%;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content h1{
+        font-size: 38px;
+    }
+
+    .item{
+        width: calc(100% / 2 - 50px);
+        margin: 0 20px;
+    }
+
+    .allItem{
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .textContent img{
+        width: 100%;
+        height: 400px;
+    }
+    .textContent{
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .item{
+        width: calc(100%  - 40px);
+    }
+
+    .textContent {
+        width:auto;
+    }
+    
+    .textContent img{
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .textContent{
+        width: 100%;
+    }
+
+    .textContent img{
+        width: 100%;
+    }
+}

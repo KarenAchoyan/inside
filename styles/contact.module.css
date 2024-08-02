@@ -1,0 +1,97 @@
+.content{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    width:50%;
+    padding: 40px;
+}
+.heading h1{
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+}
+.item{
+    margin-bottom: 40px;
+}
+.item p{
+    font-size: 20px;
+}
+.item>p:first-child{
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.item>div p{
+    margin: 10px 0;
+}
+.formContent{
+    width: 65%;
+}
+.contactInfo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+}
+.formContainer {
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.contactForm .ant-form-item-label > label {
+    font-weight: 500;
+    color: #8c8c8c;
+}
+
+.customInput {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.customInput:focus {
+    border-bottom-color: #40a9ff;
+    box-shadow: none;
+}
+
+.customTextArea {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.customTextArea:focus {
+    border-bottom-color: #40a9ff;
+    box-shadow: none;
+}
+
+.submitButton {
+    display: block;
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 10px 50px;
+    height: auto;
+    border-radius: 0;
+}
+.submitButton span{
+    line-height: unset;
+}
+.submitButton:hover {
+    background-color: #000;
+    color: #fff;
+}

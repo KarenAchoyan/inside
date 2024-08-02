@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+@font-face {
+    src: url("/Aldrich-Regular.ttf");
+    font-family: Aldrich;
+}
+@font-face {
+    src: url("/Inter-VariableFont_slnt,wght.ttf");
+    font-family: Inter;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Aldrich;
+}
+p,i,span,li,b{
+    font-family: Inter;
+}
+
+a{
+    text-decoration: none;
+}
+.slick-slide {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.slick-center {
+    opacity: 1;
+}
+/*.animation-header .header {*/
+/*    position: fixed;*/
+/*    top: -100%;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    z-index: 1000; !* Ensure it is above other content *!*/
+/*    !* Add other styles as needed *!*/
+/*    background: white;*/
+/*    transition: 1s;*/
+/*}*/
+
+/*.animation-header.show .header {*/
+/*    top: 0%;*/
+/*}*/
+
+/*.animation-header .header{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*}*/
