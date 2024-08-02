@@ -24,7 +24,7 @@ const About = () => {
             <div className={styles.itemContent}>
               <h1>Who We Are</h1>
               <p>We create designs in a collaborative environment enabling
-                us to deliver the client's ultimate vision. Our designs are
+                us to deliver the clients ultimate vision. Our designs are
                 current, yet still possess a timeless style, generating broad
                 market appeal. Our reputation for outstanding service and
                 our innovative design style creates an extremely successful

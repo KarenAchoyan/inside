@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../../../styles/blog.module.css"
 import {ArrowRightOutlined, CalendarOutlined} from "@ant-design/icons";
+import Image from "next/image";
 const Blog = () => {
     return (
         <div className={styles.container}>
@@ -23,7 +24,7 @@ const Blog = () => {
                 <div className={styles.leftContent}>
                     <div className={styles.itemBlog}>
                         <div className={styles.itemAvatar}>
-                            <img src="about1.png" alt=""/>
+                            <Image width={1000} height={700} src="/about1.png" alt=""/>
                         </div>
                         <div className={styles.itemContent}>
                             <div className={styles.itemHeading}>

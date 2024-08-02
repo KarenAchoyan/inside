@@ -3,6 +3,7 @@ import App from "../../components/layout/app";
 import styles from "../../styles/details.module.css"
 import Banner from "../../components/portfolio/banner/banner";
 import Portfolios from "../../components/home/portfolio/portfolios";
+import Image from "next/image";
 const Index = () => {
     return (
         <>
@@ -11,7 +12,7 @@ const Index = () => {
                <div className={styles.container}>
                    <div className={styles.heading}>
                        <div className={styles.avatar}>
-                           <img src="/details1.jpg" alt=""/>
+                           <Image width={1000} height={1000} src="/details1.jpg" alt=""/>
                        </div>
                        <div className={styles.title}>
                            <h1>Creating authentic and character for most luxury residential project</h1>
@@ -49,13 +50,13 @@ const Index = () => {
                        </div>
                    </div>
                    <div className={styles.itemPortfolio}>
-                       <img src="/details2.jpg" alt=""/>
+                       <Image width={1500} height={3000} src="/details2.jpg" alt=""/>
                    </div>
                    <div className={styles.itemPortfolio}>
-                       <img src="/details3.jpg" alt=""/>
+                       <Image width={1500} height={3000} src="/details3.jpg" alt=""/>
                    </div>
                    <div className={styles.itemPortfolio}>
-                       <img src="/details4.jpg" alt=""/>
+                       <Image width={1500} height={3000} src="/details4.jpg" alt=""/>
                    </div>
                    <div className={styles.portfolios}>
                        <h1>Portfolios</h1>

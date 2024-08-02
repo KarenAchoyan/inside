@@ -2,13 +2,14 @@ import React from 'react';
 import styles from "@/styles/portfolio.module.css";
 import {FullscreenOutlined} from "@ant-design/icons";
 import Link from "next/link";
+import Image from "next/image";
 
 const Item = () => {
   return (
 
     <div className={styles.item}>
       <div className={styles.avatar}>
-        <img src="/portfolio_items.png" alt=""/>
+        <Image width={1000} height={800} src="/portfolio_items.png" alt=""/>
       </div>
       <div className={styles.info}>
       <h2>House 9</h2>

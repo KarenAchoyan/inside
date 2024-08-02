@@ -10,6 +10,7 @@
 }
 .avatar img{
     width: 100%;
+    height: auto;
 }
 .title{
     width: 50%;
@@ -50,6 +51,7 @@
 }
 .itemPortfolio img{
     width: 100%;
+    height: auto!important;
 }
 .portfolios{
     margin-top: 50px;

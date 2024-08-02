@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className={styles.sectionPages}>
               <ul >
-                <li>FAQ's</li>
+                <li>FAQs</li>
                 <li>News & Blog</li>
                 <li>Opinions</li>
               </ul>
